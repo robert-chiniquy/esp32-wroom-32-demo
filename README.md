@@ -1,3 +1,7 @@
+# what is this
+
+Demo of writing text to the OLED built into one of the ESP32 boards like this: https://www.amazon.com/HiLetgo-ESP-WROOM-32-Bluetooth-Development-Display/dp/B072HBW53G
+
 # setup
 
 ```sh
@@ -9,12 +13,6 @@ cargo run
 
 ```sh
 $ cargo espflash board-info
-[2024-01-19T22:50:12Z INFO ] Detected 4 serial ports
-[2024-01-19T22:50:12Z INFO ] Ports which match a known common dev board are highlighted
-[2024-01-19T22:50:12Z INFO ] Please select a port
-[2024-01-19T22:50:15Z INFO ] Serial port: '/dev/cu.usbserial-210'
-[2024-01-19T22:50:15Z INFO ] Connecting...
-[2024-01-19T22:50:15Z INFO ] Using flash stub
 Chip type:         esp32 (revision v3.1)
 Crystal frequency: 40MHz
 Flash size:        4MB

@@ -44,7 +44,7 @@ fn main() {
 
     let line_height = 16_i32;
     let lines = [
-        "H ello", "E mma!", "  Have", "  a", "  nice", "  day!", "  <3",
+        "H ello", "E mma!", "L Have", "L a", "O nice", "  day!", "  <3",
     ];
 
     for (i, line) in lines.iter().enumerate() {
